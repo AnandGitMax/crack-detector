@@ -8,7 +8,9 @@ import torchvision.transforms as transforms
 import uvicorn
 import os
 
-from model.model import load_model, predict_crack
+#from model.model import load_model, predict_crack
+from app.model.model import load_model, predict_crack
+
 
 app = FastAPI()
 
